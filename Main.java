@@ -36,7 +36,7 @@ public class Main{
             System.out.println("Thank you for your purchase, have a nice day!");
         }
         else if (confirmationOfOrder == 2 ) {
-            System.out.println("Your total refund is: $" + possibleRefund + ". Have a nice day!");
+            System.out.println("Your total refund is: $" + dollarBills + ". Have a nice day!");
         }
         else {
             while(confirmationOfOrder != 1 || confirmationOfOrder != 2) {
@@ -47,7 +47,7 @@ public class Main{
                     break;
                 }
                 else if (confirmationOfOrder == 2 ) {
-                    System.out.println("Your total refund is: $" + possibleRefund + ". Have a nice day!");
+                    System.out.println("Your total refund is: $" + dollarBills + ". Have a nice day!");
                     break;
                 }
             }
